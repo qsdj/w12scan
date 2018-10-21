@@ -7,6 +7,7 @@
 - 子域名接口自动获取子域名并DNS验证。验证成功加入到域名列表。  
 - 域名扫描会先请求web端，查看域名是否扫描过。以及顶级域名是否whois查询过。  
 - 接着对域名进行简单的文件扫描，目录扫描，获取标题，wappanalysise，CMS识别。这是可扩展插件化的（模仿w9scan插件化）。  
+- 扫描程序打包成docker，docker化的"分布式"
 
 ## 搜索
 1. WEB展示最近入库信息（模仿zoomeye）
@@ -15,3 +16,6 @@
 ## 技术
 1. Django RESTFUL
 2. 数据库暂时想的是MySQL
+
+## End
+just for fun!
